@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     html, body {
         overflow-x: hidden;
         min-height: 100vh;
-        font-family: 'Open Sans';
+        background-color: #f4f4f4;
     }
 
     ul {
