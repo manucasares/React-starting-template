@@ -7,9 +7,7 @@ import { AppRouter } from './routes/AppRouter';
 import { store } from './store/store';
 import { mainTheme } from 'styles/themes';
 
-import "@fontsource/roboto";
-
-//TODO: cambiar a Open Sans la fuente
+import "./styles/font-faces.css";
 
 
 export const App = () => {

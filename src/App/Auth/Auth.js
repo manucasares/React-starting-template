@@ -9,7 +9,7 @@ export const Auth = () => {
     return (
         <>
             <Form />
-            <Typography variant="h4" color="primary">
+            <Typography variant="h2" color="primary">
                 Some text
             </Typography>
         </>
