@@ -11,14 +11,11 @@ export const AppRouter = () => {
     const [ token, setToken ] = useState( null );
 
     useEffect( () => { 
-        setToken(
-            localStorage.getItem( 'token' ) || ''
-        );
+        setToken( localStorage.getItem( 'token' ) || '' );
     }, [] )
 
     return (
         <Router>
-
             <div>
                 <Switch>
                     <PublicRoute
