@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import { PublicRoute } from 'routes/PublicRoute';
 import { PrivateRoute } from 'routes/PrivateRoute';
-import { Auth, Home } from 'App/index';
+import { Auth } from 'pages/Auth/Auth';
+import { Home } from 'pages/Home/Home';
 
 
 export const AppRouter = () => {
@@ -11,10 +12,8 @@ export const AppRouter = () => {
     const [ token, setToken ] = useState( null );
 
     useEffect( () => { 
-        setToken(
-            localStorage.getItem( 'token' ) || ''
-        );
-    }, [] )
+        setToken( localStorage.getItem( 'token' ) || '' );
+    }, [] );
 
     return (
         <Router>
