@@ -10,11 +10,14 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     html, body {
-        overflow-x: hidden;
         min-height: 100vh;
         background-color: #f4f4f4;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+    
     ul {
         list-style: none;
     }
