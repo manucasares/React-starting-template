@@ -11,7 +11,6 @@ export const GlobalStyles = createGlobalStyle`
 
     html, body {
         min-height: 100vh;
-        background-color: #f4f4f4;
     }
 
     body {
